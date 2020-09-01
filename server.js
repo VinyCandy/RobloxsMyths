@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 
-
+console.log('Server Running')
 app.use(express.static("public"));
 
 
